@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="box">
+    <input type="button" id="add" value="添加" />
+    <input type="button" id="remove" value="删除" />
+    <input type="button" id="move" value="移动" />
+    <input type="button" id="select" value="选择" />
+  </div>
+  <script>
+    window.onload = function () {
+      console.log('onload');
+      let box = document.getElementById('box');
+      box.onclick = function (e) {
+        // 判断是否点击按钮
+        console.log(e.target === box ? 'box' : e.target.value);
+      }
+    }
+  </script>
+</body>
+</html>
