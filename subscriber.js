@@ -9,6 +9,10 @@ function Public () {
     this.subscribers.forEach(fn => fn(data));
     return this;
   }
+  this.removeSubscriber = function (subscriber) {
+    this.subscribers = this.subscribers.filter(fn => fn !== subscriber);
+    return this;
+  }
 }
 
 //订阅者
@@ -27,3 +31,7 @@ let publicer = new Public();
 publicer.addSubscriber(a).addSubscriber(b).addSubscriber(c);
 // 发布
 publicer.deliver('ssss');
+
+// 退订
+publicer.removeSubscriber(a);
+publicer.deliver('gggg');
