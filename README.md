@@ -5,4 +5,5 @@
 + [x] eventCommission.html —— 事件委托
 + [x] getterAndSetter.js —— 响应式对象模拟实现
 + [x] subscriber.js —— 简单版订阅/发布模式
++ [x] Q&A.md —— 问题合集（不定期更新）
 + [ ] promise.js—— 模拟实现Promise
