@@ -128,7 +128,9 @@ Array.prototype.slice.call(likeArray);
 ```
 33. 数组与类数组区别
 34. 事件代理的实现(冒泡)
-35. 
+35. 事件循环机制Event Loop
+36. js渲染堵塞的处理方法（async、defer、尽量靠后放置）
+37. 
 
 # network
 1. http和https区别
@@ -167,7 +169,8 @@ Array.prototype.slice.call(likeArray);
 // Access-Control-Allow-Methods:允许访问的请求方法
 ```
 14. csrf如何实现
-15. 
+15. CORS nginx的跨域处理
+16. 
 
 # os
 1. 进程与线程
