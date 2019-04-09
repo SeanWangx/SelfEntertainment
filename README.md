@@ -5,8 +5,9 @@
 + [x] [eventCommission.html](https://github.com/SeanWangx/SelfEntertainment/blob/master/eventCommission.html) —— 事件委托
 + [x] [getterAndSetter.js](https://github.com/SeanWangx/SelfEntertainment/blob/master/getterAndSetter.js) —— 响应式对象模拟实现
 + [x] [subscriber.js](https://github.com/SeanWangx/SelfEntertainment/blob/master/subscriber.js) —— 简单版订阅/发布模式
-+ [x] [Q&A.md](Q&A.md) —— 问题合集（不定期更新）
-+ [x] [PDD.md](PDD.md) —— QA
++ [x] [myRedux.js](https://github.com/SeanWangx/SelfEntertainment/blob/master/myRedux.js) —— 模拟实现一个最简单的redux
++ [x] [Q&A.md](https://github.com/SeanWangx/SelfEntertainment/blob/master/Q&A.md) —— 问题合集（不定期更新）
++ [x] [PDD.md](https://github.com/SeanWangx/SelfEntertainment/blob/master/PDD.md) —— QA
 + [ ] promise.js—— 模拟实现Promise
 
 ## Shortcoming
