@@ -6,6 +6,7 @@
 + [x] [getterAndSetter.js](https://github.com/SeanWangx/SelfEntertainment/blob/master/getterAndSetter.js) —— 响应式对象模拟实现
 + [x] [subscriber.js](https://github.com/SeanWangx/SelfEntertainment/blob/master/subscriber.js) —— 简单版订阅/发布模式
 + [x] [myRedux.js](https://github.com/SeanWangx/SelfEntertainment/blob/master/myRedux.js) —— 模拟实现一个最简单的redux
++ [x] [myIndexOf.js](https://github.com/SeanWangx/SelfEntertainment/blob/master/myIndexOf.js) —— 模拟实现一个最简单的redux
 + [x] [Q&A.md](https://github.com/SeanWangx/SelfEntertainment/blob/master/Q&A.md) —— 问题合集（不定期更新）
 + [x] [PDD.md](https://github.com/SeanWangx/SelfEntertainment/blob/master/PDD.md) —— QA
 + [ ] promise.js—— 模拟实现Promise
