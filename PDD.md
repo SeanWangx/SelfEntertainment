@@ -1,6 +1,6 @@
 1. Promise基本方法，模拟实现
 2. [x] call和apply模拟实现bind
-```js
+```javascript
 function myBind (fn, context) {
   return function (...args) {
     fn.apply(context, args);
@@ -8,7 +8,7 @@ function myBind (fn, context) {
 }
 ```
 3. [x] redux原理，手写简易框架
-```js
+```javascript
 function createStore (reducer) {
   let state = undefined;
   let listeners = [];
@@ -50,7 +50,7 @@ store.dispatch({ type: 'ADD', todo: '面试'});
 5. new一个对象的过程
 6. [x] 父子组件通信方式（v-on:value, v-bind:change, v-model）
 7. [x] 非父子组件通信方式
-```js
+```javascript
 // 方式一
 var events = require('events');
 var emitter = new events.EventEmitter();
@@ -92,8 +92,8 @@ Bus.$emit('show', 'Hello World!');
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: 100px;
-  margin-top: 100px;
+  margin-left: -100px;
+  margin-top: -100px;
 }
 /*未知宽度的块级元素*/
 /*1*/
@@ -117,7 +117,7 @@ Bus.$emit('show', 'Hello World!');
 ```
 9. 浏览器进程、线程
 10. [x] 对象的深拷贝
-```js
+```javascript
 let obj = { a: 1, b: 2 };
 let copy1 = JSON.parse(JSON.stringify(obj));
 let copy2 = Object.keys(obj).reduce((prev, cur) => {
@@ -126,7 +126,7 @@ let copy2 = Object.keys(obj).reduce((prev, cur) => {
 }, {});
 ```
 11. [x] 字符串去掉尾部空格
-```js
+```javascript
 function clearTail (str) {
   let list = str.split('');
   while(list.length >= 0 && list[list.length - 1] === ' ') {
@@ -136,18 +136,18 @@ function clearTail (str) {
 }
 ```
 12. 定时器函数什么时候放到异步队列中的
-```js
+```javascript
 // 浏览器在其他线程中执行异步程序，当异步程序完成时将回调函数放入任务队列中
 ```
 13. 快速排序算法
 14. js数据类型，隐式类型转换，判断
 15. [x] 闭包的理解
-```js
+```javascript
 // 可以访问另一个函数中变量的函数
 ```
 16. 内存泄漏的原因
 17. [x] react生命周期
-```js
+```javascript
 // 装载
 {
   constructor (props) {
@@ -208,7 +208,7 @@ function clearTail (str) {
 }
 ```
 18. vue生命周期
-```js
+```javascript
 {
   beforeCreate () {
     // 实例初始化，数据未obserer、事件未配置
@@ -237,7 +237,7 @@ function clearTail (str) {
 24. cdn
 25. [x] 网络协议（物链网输会示用，tcp传输层，ip网络层，http应用层）
 26. [x] post和get区别
-```js
+```javascript
 /**
  * 传递参数的方式不同，参数长度、类型限制不同
  * 字面上理解get用于请求资源，post用于传输资源
